@@ -4,6 +4,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: "Martel Sans", serif;
 }
 body{
     background-color: black;
@@ -47,7 +48,7 @@ nav button{
 }
 .hero
 {
-    font-family: "Martel Sans", serif;;
+    font-family: "Martel Sans", serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,4 +128,72 @@ nav button{
     align-items: center;
     justify-content: center;
     gap: 16px;
+}
+.first
+{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-items:center;
+    align-items: center;
+
+}
+.Secimg img{
+    width: 30vw;
+    z-index: 10;
+    position: relative;
+}
+.Secimg{
+position: relative;
+}
+.Secimg video{
+    position: absolute;
+    right: 60px;
+    width: 304px;
+    top: 66px;
+   
+}
+.first > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.first > div :nth-child(2)
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+section.first div{
+    display: flex;
+    flex-direction: column;
+}
+.frequency
+{
+    color: white;
+}
+.freqbox
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}   
+.frequency h2
+{
+   text-align: center;
+}
+.freqbox span
+{
+    height: 5vh;
+    width: 40vw;
+    background-color: rgb(56, 51, 51);
+    padding: 24px;
+    margin: 5px auto;
+    position: relative;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
