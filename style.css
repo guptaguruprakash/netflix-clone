@@ -89,3 +89,42 @@ nav button{
     z-index: 10;
     margin-top:0;  
 }
+.btn
+{
+    padding:  3px 8px;
+    font-size: 18px;
+    background-color: rgba(248,243,243,0.021);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+.btn-red
+{
+    font-weight: 400;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    border:1px solid rgba(23,2,23,0.7)
+    
+}
+.main input
+{
+    background-color: rgba(23,2,23,0.7);
+    padding:   7px 108px 4px 14px;
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+    
+
+}
+.hero-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
