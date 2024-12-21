@@ -359,4 +359,6 @@ footer{
     };
  
 }
-
+.freqbox img {
+    filter: invert(1);
+}
