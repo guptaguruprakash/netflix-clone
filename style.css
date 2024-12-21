@@ -127,7 +127,7 @@ nav button{
     display: flex;
     align-items: stretch;
     justify-content: center;
-    gap: 16px;
+    gap: 20px;
 }
 .first
 {
@@ -218,6 +218,7 @@ section.first div{
     flex-direction: row;
     justify-content: space-between;
     cursor: pointer;
+    align-items: center;
     
 }
 .freqbox span:hover{
@@ -275,7 +276,7 @@ background-color:rgba(56, 51, 51,0.9);
     .footer{
         display: grid;
         grid-template-columns: 1fr 1fr;
-       
+       gap: 23px;
     
     }
     
@@ -293,15 +294,65 @@ background-color:rgba(56, 51, 51,0.9);
 }
 footer .question {
     color: grey;
+    
+    padding: 0 212px;
     position: relative;
-    left: 98px;
+    top: 25px;
     
 }
+@media screen and (max-width: 1200px) {
+   
+    .unlimited{
+        font-size: 32px;
+    }
+    .usd{
+        font-size: 18px;
+    }
+    nav
+    {
+        max-width: 90vw;
+    }
+    .hero-button{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 23px;
+        left: 3px;
+        
+    }
+    .hero1 .hero-button{
+        display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top: -21px;
+    }
+
 footer{
-    padding: 60px;
+    padding: 12px;
     font-size: 14px;
     font-family: "Martel Sans", serif;
-    
-    
+}
+    .first > div :nth-child(2) {
+        font-size: 18px;
+     
+    }
+    .first > div :first-child {
+        font-size: 32px;
+        
+    }
+    .frequency h2 {
+        
+        font-size: 32px;
+    }
+    .frequency span{
+        font-size: 18px;
+        height: 3px;
+    }
+    .hero1 span{
+        font-size: 18px;
+        padding: 51px
+    };
 }
 
