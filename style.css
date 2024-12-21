@@ -125,7 +125,7 @@ nav button{
 .hero-button
 {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     gap: 16px;
 }
@@ -140,8 +140,15 @@ nav button{
     align-items: center;
 
 }
+@media screen and (max-width: 1300px) {
+    .first{
+        flex-wrap: wrap;
+    }
+
+    
+}
 .Secimg img{
-    width: 30vw;
+    width: 555px;
     z-index: 10;
     position: relative;
 }
@@ -150,10 +157,21 @@ position: relative;
 }
 .Secimg video{
     position: absolute;
-    right: 60px;
-    width: 304px;
-    top: 66px;
-   
+    right: 45px;
+    width: 433px;
+    top: 91px;
+}
+@media  screen and (max-width : 1300px) {
+    .Secimg img{
+        width: 400px;
+       
+    }
+    .Secimg video{
+        
+        width: 300px;
+      
+    }
+    
 }
 .first > div :first-child{
     font-size: 48px;
@@ -167,6 +185,7 @@ position: relative;
 section.first div{
     display: flex;
     flex-direction: column;
+    padding: 34px 0px;
 }
 .frequency
 {
@@ -204,3 +223,85 @@ section.first div{
 .freqbox span:hover{
 background-color:rgba(56, 51, 51,0.9);
 }
+.hero1{
+    font-family: "Martel Sans", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    z-index: 10;
+    color:rgb(255, 255, 255);
+    height: calc(100% - 62px);
+    gap: 23px 23px;
+    padding: 0 23px;
+}
+.hero1 span{
+    transition: all 10s ease-out;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero1 input{
+    background-color: rgba(23,2,23,0.7);
+    padding:   7px 108px 4px 14px;
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+}
+.hero1 .hero-button
+{
+    display: flex
+;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 46px;
+    align-content: space-around;
+
+}
+.hero1{
+    padding: 23px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    justify-items: center;
+    padding: 46px 0;
+
+}
+@media screen and (max-width: 1300px) {
+    
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+    
+    }
+    
+}
+.footer-item
+{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-item a{
+    color: gray;
+    padding: 5px;
+
+}
+footer .question {
+    color: grey;
+    position: relative;
+    left: 98px;
+    
+}
+footer{
+    padding: 60px;
+    font-size: 14px;
+    font-family: "Martel Sans", serif;
+    
+    
+}
+
